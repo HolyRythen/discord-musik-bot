@@ -19,7 +19,7 @@ async def on_ready():
 
 @bot.command()
 async def play(ctx, *, query):
-    youtube_api_key = 'AIzaSyAMl4j-F0EtP6y2r4hYq41zho6ys0I5XTI'
+    youtube_api_key = '(youtube_api_key)'
 
     youtube = build('youtube', 'v3', developerKey=youtube_api_key)
 
